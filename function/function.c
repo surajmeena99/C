@@ -7,8 +7,8 @@ void greetings()  //Function declaration
 main()
 {
     greetings();   //Function calling
-    greetings();
     // greetings();
+    greetings();
 }
 
 
