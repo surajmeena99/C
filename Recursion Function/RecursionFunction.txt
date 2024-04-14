@@ -1,0 +1,9 @@
+ syntax:- function call in the function
+
+ datatype functionName(){
+    condition;
+    functionName();
+ }
+ main(){
+    functionName();
+ }

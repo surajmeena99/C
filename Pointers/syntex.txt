@@ -1,0 +1,42 @@
+pointers is used to find the addres of any particular variables.
+
+pointer: %p
+
+addres = &a: addres of a
+
+pointer: *p, *q
+
+%x: hexadecimal form
+
+structure is an user defined datatype which is used to store multiple values in a single element.
+
+Qs. Difference between structure and union?
+Ans. Array will store multiple values of same data type (int only, char only),
+     but structure can store values of multiple dafta types (int, char,double all).
+
+
+syntax:- 
+       struct structurename 
+       {
+        datatype1 var1, var2, var3;
+        datatype2 var3, var4;
+       };
+       main(){
+       struct structurename varname;
+       }
+
+Task: Create a bank and add following details
+
+bank name
+account number
+Account balance
+Ifsc code 
+atm pin
+
+
+Union:-
+
+Difference Between structure and union:-
+
+Total size of structure: 28 bytes
+particular datatype size of union: 20 bytes
